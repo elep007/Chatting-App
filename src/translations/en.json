@@ -1,0 +1,201 @@
+{
+  "billing" : {
+    "Cash" : "Cash",
+    "Choose" : "Choose",
+    "Creditcard" : "Credit card",
+    "Direction" : "Direction",
+    "Paymentmethod" : "Payment method",
+    "Reserve" : "Reserve",
+    "Service" : "Service",
+    "Specialist" : "Specialist",
+    "Total" : "Total",
+    "title" : "Billing"
+  },
+  "card" : {
+    "CVV" : "CVV",
+    "Cardnumber" : "Card number",
+    "Expirationdate" : "Expiration date",
+    "country" : "country",
+    "title" : "Card data"
+  },
+  "confirm" : {
+    "Apartment" : "Apartment",
+    "Check" : "Check",
+    "Direction" : "Direction",
+    "Home" : "Home",
+    "Office" : "Office",
+    "title" : "Confirmation"
+  },
+  "detail" : {
+    "Assessment" : "Assessment",
+    "Date" : "Date",
+    "Direction" : "Direction",
+    "Requestagain" : "Request again",
+    "Servicedetails" : "Service details",
+    "Services" : "Services",
+    "Specialist" : "Specialist",
+    "Value" : "Value",
+    "title" : "Details"
+  },
+  "history" : {
+    "Date" : "Date",
+    "Servicehistory" : "Service history",
+    "Services" : "Services",
+    "Value" : "Value",
+    "title" : "History"
+  },
+  "login" : {
+    "facebooklogin" : "LOGIN WITH FACEBOOK",
+    "forgotPassword" : "Did you forget your password?",
+    "googlelogin" : "LOGIN WITH GMAIL",
+    "join" : "Join",
+    "login" : "Log in",
+    "title" : "Log in",
+    "enter" : "Enter",
+    "active": "Active",
+    "inactive":"Inactive"
+  },
+  "manicurist" : {
+    "Choosespecialist" : "Choose a specialist",
+    "Fullname" : "Full name",
+    "MagicSpecialist" : "Magic Specialist",
+    "title" : "Manicurist"
+  },
+  "profile" : {
+    "Contactus" : "Contact us",
+    "Help" : "Help",
+    "NameSurname" : "Name and Surname",
+    "Personalinformation" : "Personal information",
+    "Signoff" : "Sign off",
+    "TermsConditions" : "Terms and Conditions",
+    "title" : "My profile"
+  },
+  "information" : {
+    "information" : "Information",
+    "ServiceInfo" : "Service Information"
+  },
+  "program" : {
+    "Choosedate" : "Choose a date",
+    "Chooseschedule" : "Choose a schedule",
+    "Observations" : "Observations",
+    "Seeavailability" : "See availability",
+    "title" : "programming"
+  },
+  "progress" : {
+    "Chat" : "Chat",
+    "Fullname" : "Full name",
+    "MagicSpecialist" : "Magic Specialist",
+    "Yourservice" : "Your service",
+    "title" : "Progress",
+    "way": "Is on its way",
+    "min":"It's a few minutes",
+    "out":"Is out"
+
+  },
+  "rate" : {
+    "Comments" : "Comments",
+    "Doyouwant" : "Do you want to rate the service?",
+    "Submit" : "Submit",
+    "title" : "Rate the service"
+  },
+  "register" : {
+    "email" : "Email",
+    "name" : "Name",
+    "phone" : "Cell phone number",
+    "register" : "JOIN",
+    "signupfacebook" : "SIGN UP WITH FACEBOOK",
+    "signupgmail" : "SIGN UP WITH GAMIL",
+    "surname" : "Surname",
+    "title" : "Sign up"
+  },
+  "service" : {
+    "Manicure" : "Manicure",
+    "Manicure + Pedicure" : "Manicure + Pedicure",
+    "Pedicure" : "Pedicure"
+  },
+  "time":{
+    "morning":"Morning",
+    "afternoon":"Afternoon",
+    "Monday":"Monday",
+    "Tuesday":"Tuesday",
+    "Wednesday":"Wednesday",
+    "Thursday":"Thursday",
+    "Friday":"Friday",
+    "Saturday":"Saturday",
+    "Sunday":"Sunday"
+  },
+  "serviceDetail" : {
+    "Acrylic Nail Maintenance" : "Acrylic Nail Maintenance",
+    "Acrylic nails" : "Acrylic nails",
+    "Amount" : "Amount of services",
+    "Continue" : "Continue",
+    "Cuticleclean" : "Cuticle clean",
+    "Exfoliation" : "Exfoliation",
+    "FileNails" : "File Nails",
+    "Gel nails" : "Gel nails",
+    "Hands spa" : "Hands spa",
+    "Includes" : "Includes",
+    "Manicure + Pedicure Acrylic " : "Manicure + Pedicure Acrylic ",
+    "Manicure + Pedicure Gel" : "Manicure + Pedicure Gel",
+    "Manicure + Pedicure Maintenance" : "Manicure + Pedicure Maintenance",
+    "Manicure + Pedicure Semi-permanent" : "Manicure + Pedicure Semi-permanent",
+    "Manicure + Pedicure Traditional" : "Manicure + Pedicure Traditional",
+    "Manicure + Pedicure spa" : "Manicure + Pedicure spa",
+    "Manicure Acrylic" : "Manicure Acrylic",
+    "Manicure Gel" : "Manicure Gel",
+    "Manicure Maintenance" : "Manicure Maintenance",
+    "Manicure Semi-permanent" : "Manicure Semi-permanent",
+    "Manicure Tradicional" : "Manicure Tradicional",
+    "Manicure Traditional" : "Manicure Traditional",
+    "NailCare" : "Nail Care",
+    "Pdicure Gel" : "Pdicure Gel",
+    "Pdicure Maintenance" : "Pdicure Maintenance",
+    "Pdicure Semi-permanent" : "Pdicure Semi-permanent",
+    "Pdicure Spa" : "Pdicure Spa",
+    "Pdicure Traditional" : "Pdicure Traditional",
+    "Pedicure Acrylic" : "Pedicure Acrylic",
+    "Pedicure Traditional" : "Pedicure Traditional",
+    "Semi-permanent manicure" : "Semi-permanent manicure",
+    "Shape" : "Shape",
+    "Traditional" : "Traditional",
+    "semi-permanent manicure" : "semi-permanent manicure"
+  },
+  "shopping" : {
+    "Addanotherservice" : "Add another service",
+    "Hiredservices" : "Hired services",
+    "title" : "Shopping cart"
+  },
+  "sms" : {
+    "InsertSMScode" : "Insert SMS code",
+    "Resend" : "Resend",
+    "check" : "Check",
+    "successVerify" : "Your number has been successfully verified",
+    "title" : "Confirmation phone number"
+  },
+  "users" : {
+    "children" : "Children",
+    "men" : "Men",
+    "title" : "Users",
+    "women" : "Women"
+  },
+  "womenManicure" : {
+    "acryl" : "Acrylic nails",
+    "acrylic" : "Acrylic",
+    "acrylicContent" : "Manicure Acrylic",
+    "gel" : "Gel nails",
+    "gelContent" : "Manicure Gel",
+    "geltitle" : "Gel",
+    "maintain" : "Acrylic Nail Maintenance",
+    "maintanceContent" : "Maintenance Acrylic",
+    "maintancetitle" : "Maintenance",
+    "semi" : "Semi-permanent manicure",
+    "spa" : "Hands spa",
+    "spaContent" : "Hands spa",
+    "spatitle" : "Spa",
+    "spemiper" : "Semi-permanent",
+    "spemiperContent" : "Manicure Semi-permanent",
+    "title" : "Manicure",
+    "traditional" : "Traditional",
+    "traditionalContent" : "Manicure Traditional"
+  }
+}

@@ -1,0 +1,161 @@
+{
+    "login": {
+      "title": "Log in",
+      "forgotPassword": "Did you forget your password?",
+      "login": "Log in",
+      "join":"Join",
+      "facebooklogin":"LOGIN WITH FACEBOOK",
+      "googlelogin":"LOGIN WITH GMAIL"
+    },
+    "register": {
+      "title": "Sign up",
+       "name":"Name",
+       "surname":"Surname",
+       "email":"Email",
+       "register":"JOIN",
+       "phone":"Cell phone number",
+       "signupfacebook":"SIGN UP WITH FACEBOOK",
+       "signupgmail":"SIGN UP WITH GAMIL"  
+    },
+    "service":{
+      "title":"Services",
+      "Manicure":"Manicure",
+      "Pedicure":"Pedicure",
+      "ManPedicure":"Manicure + Pedicure",
+      "phoneAuth":"Remember that to request a service, you must enter your phone number."
+    },
+    "users":{
+      "title":"Users",
+      "women":"Women",
+      "children":"Children",
+      "men":"Men"
+  
+    },
+    "womenManicure":{
+      "title":"Manicure",
+      "traditional":"Traditional",
+      "semi":"Semi-permanent manicure",
+      "acryl":"Acrylic nails",
+      "gel":"Gel nails",
+      "spa":"Hands spa",
+      "maintain":"Acrylic Nail Maintenance",
+  
+      "traditionalContent":"Manicure Traditional",
+      "spemiper":"Semi-permanent",
+      "spemiperContent":"Manicure Semi-permanent",
+      "acrylic":"Acrylic",
+      "acrylicContent":"Manicure Acrylic",
+      "geltitle":"Gel",
+      "gelContent":"Manicure Gel",
+      "spatitle":"Spa",
+      "spaContent":"Hands spa",
+      "maintancetitle":"Maintenance",
+      "maintanceContent":"Maintenance Acrylic"
+      
+    },
+  
+    "serviceDetail":{
+      "Includes":"Includes",
+      "NailCare":"Nail Care",
+      "Exfoliation":"Exfoliation",
+      "Cuticleclean":"Cuticle clean",
+      "Shape":"Shape",
+      "FileNails":"File Nails",
+      "Amount":"Amount of services",
+      "Continue":"Continue"
+    },
+    "shopping":{
+      "title":"Shopping cart",
+      "Addanotherservice":"Add another service",
+      "Hiredservices":"Hired services"
+    },
+    "program":{
+      "title":"programming",
+      "Choosedate":"Choose a date",
+      "Chooseschedule":"Choose a schedule",
+      "Observations":"Observations",
+      "Seeavailability":"See availability"
+    },
+    "manicurist":{
+      "title":"Manicurist",
+      "Choosespecialist":"Choose a specialist",
+      "Fullname":"Full name",
+      "MagicSpecialist":"Magic Specialist"
+    },
+    "confirm":{
+      "title":"Confirmation",
+      "Direction":"Direction",
+      "Check":"Check",
+      "Home":"Home",
+      "Apartment":"Apartment",
+      "Office":"Office"
+    },
+    "billing":{
+      "title":"Billing",
+      "Service":"Service",
+      "Choose":"Choose",
+      "Direction":"Direction",
+      "Specialist":"Specialist",
+      "Paymentmethod":"Payment method",
+      "Cash":"Cash",
+      "Creditcard":"Credit card",
+      "Reserve":"Reserve",
+      "Total":"Total"
+    },
+    "card":{
+      "title":"Card data",
+      "Cardnumber":"Card number",
+      "Expirationdate":"Expiration date",
+      "CVV":"CVV",
+      "country":"country"
+    },
+    "progress":{
+      "title":"Progress",
+      "Yourservice":"Your service",
+      "Fullname":"Full name",
+      "MagicSpecialist":"Magic Specialist",
+      "Chat":"Chat"
+    },
+    "rate":{
+      "title":"Rate the service",
+      "Doyouwant":"Do you want to rate the service?",
+      "Comments":"Comments",
+      "Submit":"Submit"
+    },
+    "profile":{
+      "title":"My profile",
+      "Personalinformation":"Personal information",
+      "NameSurname":"Name and Surname",
+      "Signoff":"Sign off",
+      "Help":"Help",
+      "TermsConditions":"Terms and Conditions",
+      "Contactus":"Contact us"
+    },
+    "history":{
+      "title":"History",
+      "Value":"Value",
+      "Date":"Date",
+      "Services":"Services",
+      "Servicehistory":"Service history"
+    },
+    "detail":{
+      "title":"Details",
+      "Servicedetails":"Service details",
+      "Value":"Value",
+      "Date":"Date",
+      "Services":"Services",
+      "Direction":"Direction",
+      "Specialist":"Specialist",
+      "Assessment":"Assessment",
+      "Requestagain":"Request again"
+  
+    },
+    "sms":{
+      "title":"Confirmation phone number",
+      "InsertSMScode":"Insert SMS code",
+      "check":"Check",
+      "Resend":"Resend",
+      "successVerify":"Your number has been successfully verified"
+    }
+    
+  }
