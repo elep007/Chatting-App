@@ -10,6 +10,9 @@ import InformationPage from './Screens/Information';
 import ProgressPage from './Screens/Progress';
 import ChatPage from './Screens/Chat';
 import ChatListPage from './Screens/ChatList'
+import ProfilePage from './Screens/profilePage'
+import OrderPage from './Screens/shoppingPage'
+import OrderdetailPage from './Screens/Orderdetail'
 
 const AppContain = createStackNavigator(
     {
@@ -21,6 +24,9 @@ const AppContain = createStackNavigator(
         Progress: {screen: ProgressPage, navigationOptions: {header: null,},},  
         Chat: {screen: ChatPage, navigationOptions: {header: null,},},  
         ChatList: {screen: ChatListPage, navigationOptions: {header: null,},}, 
+        Profile: {screen: ProfilePage, navigationOptions: {header: null,},}, 
+        Orders: {screen: OrderPage, navigationOptions: {header: null,},}, 
+        OrderDetail: {screen: OrderdetailPage, navigationOptions: {header: null,},}, 
     },
     {
       initialRouteName: 'Splash',

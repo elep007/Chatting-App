@@ -177,7 +177,7 @@ export default class ServiceActive extends React.Component {
                             color = "white"/>
                         </TouchableOpacity>
                         <TouchableHighlight 
-                    //  onPress={()=>{this.props.navigation.push('History')}}
+                        onPress={()=>this.props.navigation.navigate("Orders")}
                         >
                             <Image
                                 resizeMode={'contain'}
@@ -187,7 +187,7 @@ export default class ServiceActive extends React.Component {
                             /> 
                         </TouchableHighlight>
                         <TouchableHighlight 
-                    //  onPress={this.handleProfile}
+                     onPress={()=>this.props.navigation.navigate("Profile")}
                         >
                         <Image
                             resizeMode={'contain'}

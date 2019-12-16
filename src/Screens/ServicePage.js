@@ -594,7 +594,7 @@ export default class ServicePage extends React.Component {
                     <View style={{flexDirection:"row",justifyContent:"space-between",alignItems:"center", position:'absolute', bottom:30, left:30}} >
                              
                              <TouchableHighlight 
-                             onPress={()=>{this.props.navigation.goBack()}}
+                             onPress={()=>{this.props.navigation.navigate("ServiceActive")}}
                              >
                                  <Image
                                      resizeMode={'contain'}
@@ -604,7 +604,7 @@ export default class ServicePage extends React.Component {
                                  /> 
                              </TouchableHighlight>
                              <TouchableHighlight 
-                            //  onPress={this.handleProfile}
+                             onPress={()=>{this.props.navigation.navigate("ServiceActive")}}
                              >
                                  <Image
                                      resizeMode={'contain'}

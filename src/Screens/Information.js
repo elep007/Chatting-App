@@ -288,7 +288,7 @@ export default class Information extends React.Component {
                                  /> 
                              </TouchableHighlight>
                              <TouchableHighlight 
-                            //  onPress={this.handleProfile}
+                            onPress={()=>{this.props.navigation.navigate("ServiceActive")}}
                              >
                                  <Image
                                      resizeMode={'contain'}
