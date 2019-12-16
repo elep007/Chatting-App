@@ -53,7 +53,8 @@ export default class Progress extends React.Component {
         let uid = await AsyncStorage.getItem("@uid")
         this.props.navigation.navigate("Chat",{
             "data":this.state.data,
-            "Id":uid
+            "Id":uid,
+            
         })
     }
 

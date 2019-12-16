@@ -9,6 +9,7 @@ import ServicePage from './Screens/ServicePage';
 import InformationPage from './Screens/Information';
 import ProgressPage from './Screens/Progress';
 import ChatPage from './Screens/Chat';
+import ChatListPage from './Screens/ChatList'
 
 const AppContain = createStackNavigator(
     {
@@ -19,6 +20,7 @@ const AppContain = createStackNavigator(
         Information: {screen: InformationPage, navigationOptions: {header: null,},},  
         Progress: {screen: ProgressPage, navigationOptions: {header: null,},},  
         Chat: {screen: ChatPage, navigationOptions: {header: null,},},  
+        ChatList: {screen: ChatListPage, navigationOptions: {header: null,},}, 
     },
     {
       initialRouteName: 'Splash',

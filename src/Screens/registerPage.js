@@ -2,9 +2,8 @@ import React from "react";
 import { View,Image,ImageBackground,Dimensions,TextInput,ScrollView } from "react-native";
 import AsyncStorage from '@react-native-community/async-storage';
 
-import { Container, Content,Text,Spinner, Toast} from "native-base";
+import { Container, Content,Text,Spinner, Toast, CheckBox} from "native-base";
 import { strings } from '../i18n';
-
 import { toastr } from '../component/toastComponent'
 
 // import { GoogleSignin } from 'react-native-google-signin';
@@ -25,10 +24,15 @@ export default class RegisterPage extends React.Component {
        loading:false,
        mailvalidate:false,
        currentUser:'',     
+       check:false,
     };
   }
 
-    componentDidMount(){
+    async componentDidMount(){
+        let token = await AsyncStorage.getItem("@token")
+        if(token==='1'){
+            this.props.navigation.replace("ServiceActive")  
+        }
     }
     handleName =(text)=>{
         this.setState({ name: text })
@@ -63,9 +67,11 @@ export default class RegisterPage extends React.Component {
         this.setState({ phone: text })
     }
 
-    handleRegister = () =>{
+    handleRegister = async () =>{
         // this.props.navigation.replace("ServiceActive")               
-
+        if(this.state.check===true){
+            await AsyncStorage.setItem("@token","1")
+        }
         
         const {name,password,email,phone} = this.state
         if(!password || !email){
@@ -146,6 +152,14 @@ export default class RegisterPage extends React.Component {
                                 secureTextEntry = {true}
                                 ref={password => { this.passwordTxt = password }}
                             />
+                        </View>
+                        <View style={{flexDirection:'row', alignItems:'center', justifyContent:'center', marginTop:20}}>
+                            <CheckBox
+                            style={{marginRight:30}}
+                                checked={this.state.check}
+                                onPress = {()=>this.setState({check:!this.state.check})}
+                            />
+                            <Text  style={{color:"white",opacity:1,fontFamily:"dbfut_b0"}}>{strings("login.Remind me")}</Text>
                         </View>
                         
                     </View>

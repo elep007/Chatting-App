@@ -1,7 +1,7 @@
 import React from "react";
-import { View,Image,ImageBackground,Dimensions,TextInput,ScrollView,TouchableHighlight } from "react-native";
+import { View,Image,ImageBackground,Dimensions,TouchableOpacity,ScrollView,TouchableHighlight } from "react-native";
 import AsyncStorage from '@react-native-community/async-storage';
-
+import Icon from 'react-native-vector-icons/Entypo'
 import { Container, Content,Text,Spinner} from "native-base";
 import { strings } from '../i18n';
 import CalendarPicker from 'react-native-calendar-picker';
@@ -169,28 +169,34 @@ export default class ServiceActive extends React.Component {
                         source={require('../Resources/iconhome.png')}
                     />    */}
                     <View style={{flexDirection:"row",justifyContent:"space-between",alignItems:"center", position:'absolute', bottom:30, right:30}} >
-                             
-                             <TouchableHighlight 
-                            //  onPress={()=>{this.props.navigation.push('History')}}
-                             >
-                                 <Image
-                                     resizeMode={'contain'}
-                                     style={{width:40,height:40, marginRight:100}}
-                                     source={require('../Resources/iconbook.png')}
-                                     
-                                 /> 
-                             </TouchableHighlight>
-                             <TouchableHighlight 
-                            //  onPress={this.handleProfile}
-                             >
-                                 <Image
-                                     resizeMode={'contain'}
-                                     style={{width:40,height:40}}
-                                     source={require('../Resources/iconman.png')}
-                                     
-                                 />   
-                             </TouchableHighlight>  
-                         </View>  
+                        <TouchableOpacity onPress={()=>this.props.navigation.navigate("ChatList")}>
+                            <Icon
+                            style={{marginRight:100}}
+                            name = "chat"
+                            size = {25}
+                            color = "white"/>
+                        </TouchableOpacity>
+                        <TouchableHighlight 
+                    //  onPress={()=>{this.props.navigation.push('History')}}
+                        >
+                            <Image
+                                resizeMode={'contain'}
+                                style={{width:40,height:40, marginRight:100}}
+                                source={require('../Resources/iconbook.png')}
+                                
+                            /> 
+                        </TouchableHighlight>
+                        <TouchableHighlight 
+                    //  onPress={this.handleProfile}
+                        >
+                        <Image
+                            resizeMode={'contain'}
+                            style={{width:40,height:40}}
+                            source={require('../Resources/iconman.png')}
+                            
+                        />   
+                        </TouchableHighlight>  
+                    </View>  
             </ImageBackground>
             </ScrollView>
            

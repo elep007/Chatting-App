@@ -53,7 +53,8 @@
     "title" : "Log in",
     "enter" : "Enter",
     "active": "Active",
-    "inactive":"Inactive"
+    "inactive":"Inactive",
+    "Remind me":"Remind me"
   },
   "manicurist" : {
     "Choosespecialist" : "Choose a specialist",

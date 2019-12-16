@@ -53,7 +53,8 @@
     "title" : "Inicio de Sesión",
     "enter" : "Ingresar",
     "active": "Activo",
-    "inactive":"Inactivo"
+    "inactive":"Inactivo",
+    "Remind me":"recuérdame"
   },
   "manicurist" : {
     "Choosespecialist" : "Escoge una especialista ",
